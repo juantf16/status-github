@@ -24,15 +24,15 @@ clone o projeto
 git clone https://github.com/juantf16/status-github.git
 ```
 ### Redis
-crie um contairner docker para rodar o redis
+crie um container docker para rodar o redis
 ```bash
 docker run -d --name redis -p 6379:6379 redis
 ```
-para parar o conteiner
+para parar o container do redis
 ```bash
 docker stop redis
 ```
-para iniciar os demais vezes o redis 
+para iniciar os demais vezes o container do redis
 ```bash
 docker start redis
 ```
