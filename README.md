@@ -60,7 +60,7 @@ npm comando-pra-iniciar #ou node app.js
 retorna a ultima requisição armazenada no redis
 
 ```json
-//ultima requisição armazenada no redis
+
 {
      "page": {
 		"id": "kctbh9vrtdwd",
@@ -71,6 +71,14 @@ retorna a ultima requisição armazenada no redis
 	}
 }
 ...
+```
+
+**RESPOSTA - 2**
+
+caso não tenha nenhum dados guardado no redis, retorna essa mensagem
+
+```send
+Nenhnuma request guardada use a rota /, para fazer uma nova
 ```
 
 ## Observações
