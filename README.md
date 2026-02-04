@@ -32,7 +32,7 @@ cd caminho\do\clone
 npm comando-pra-iniciar #ou node app.js
 ```
 
-# API Endpoints
+# API Endpoints 📍
 | route               | description                                          
 |---------------------|-----------------------------------------------------
 | <kbd>GET /</kbd>| Consome os dados da  Github Status API retorna o JSON recebido e armazena a resposta no Redis por 20 segundos. Após esse tempo, o cache é removido. [Detalhes](#get-auth-detail)
